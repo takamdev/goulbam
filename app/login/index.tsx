@@ -49,7 +49,7 @@ const sign = ()=>{
             {/*"login View"*/}
 
             <View style={{backgroundColor:"white",width:"95%"}} className={`flex  rounded-md  flex-col justify-center items-center my-5  z-50 h-1/2`}>
-               <InputLabel isPassword={false} value={email} onChange={(text) => setEmail(text)} label="Email ou Nom d'utilisateur"/>
+               <InputLabel isPassword={false} value={email} onChange={(text) => setEmail(text)} label="Email"/>
                {
                 message&& <Text className="text-red-500 self-start ms-4">email invalide</Text>
                }
