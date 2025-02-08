@@ -26,10 +26,7 @@ const Modal_comp: React.FC<ModalProps> = ({ ModalView:RenderComponent }) => {
 };
 export default Modal_comp
 
-// Définir les types de prop pour le composant enfant
-Modal_comp.propTypes = {
-  renderComponent: PropTypes.func.isRequired,
-};
+
 const styles = StyleSheet.create({
     centeredView: {
       flex: 1,
