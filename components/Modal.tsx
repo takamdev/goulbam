@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Alert, Modal, StyleSheet, Text, Pressable, View, ComponentProvider} from 'react-native';
+import { Modal, StyleSheet, View} from 'react-native';
 
 interface ModalProps {
   ModalView: React.FC;
