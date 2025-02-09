@@ -64,7 +64,7 @@ const sign = ()=>{
                }
             </View>
             {/*"go to login if not authantificate or Food authantificated"*/}
-            <Text onPress={sign} role="button" className="text-white text-2xl  w-1/2 text-center  bg-red-600 p-5 rounded-md top-0 z-50" >
+            <Text onPress={sign} role="button" className="text-white text-2xl  w-1/2 text-center  bg-red-600 p-3 rounded-md top-0 z-50" >
                  Connexion
             </Text>
          </View>

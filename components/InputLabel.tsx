@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   } as TextStyle,
   input: {
     width: "100%",
-    height:60,
+    height:50,
     paddingHorizontal:7,
     paddingVertical: 1,
     opacity:.5,
