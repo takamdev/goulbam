@@ -23,7 +23,7 @@ const SearchBAr: React.FC<InputLabelProps> = ({ onChange,value }) => {
       />
       <View className='flex flex-row  w-full'>
         
-        <Icon style={{paddingStart:10,paddingTop:10,opacity:.5}}   name="search" size={40} />
+        <Icon style={{paddingStart:10,paddingTop:10,opacity:.5}}   name="search" size={30} />
       </View>
     </View>
   );
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
 
   input: {
     width: "100%",
-    height:60,
+    height:50,
     paddingStart:50,
     paddingHorizontal:7,
     paddingVertical: 1,

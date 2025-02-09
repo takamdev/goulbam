@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   label: {
     marginBottom: 5,
     fontWeight:"bold",
-    fontSize:20
+    fontSize:15
   } as TextStyle,
   input: {
     width: "100%",

@@ -7,7 +7,7 @@ interface ModalProps {
 }
 const Modal_comp: React.FC<ModalProps> = ({ ModalView:RenderComponent ,modalVisible}) => {
   return (
-    <View>
+    <View className='w-full h-full'>
         <Modal
           animationType="slide"
           transparent={true}
@@ -16,7 +16,10 @@ const Modal_comp: React.FC<ModalProps> = ({ ModalView:RenderComponent ,modalVisi
             <RenderComponent />
           </View>
         </Modal>
+
     </View>
+        
+   
   );
 };
 export default Modal_comp

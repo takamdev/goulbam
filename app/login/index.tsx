@@ -1,7 +1,7 @@
 import InputLabel from "@/components/InputLabel";
 import { Link } from "expo-router";
 import { useState } from "react";
-import { View, Text, ImageBackground, Button } from "react-native";
+import { View, Text, ImageBackground, Button, StatusBar } from "react-native";
 import { useRouter } from 'expo-router';
 
 
@@ -41,8 +41,9 @@ const sign = ()=>{
          source={require("@/assets/images/welcome.jpg")}
       >
         {/*"img backgroung for login view"*/}
+        <StatusBar barStyle="dark-content" backgroundColor="#fff" />
 
-         <View className="flex mt-16 relative h-3/4  items-center">
+         <View className="flex  relative h-3/4  items-center">
             <Text className="text-3xl top-0 z-50 mt-32 font-bold  text-green-500">
                Connectez-vous
             </Text>
