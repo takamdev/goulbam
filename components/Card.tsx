@@ -31,7 +31,7 @@ const Card: React.FC<props> = ({ img,prize,desc }) => {
            {prize}$
         </Text>
 
-        <Button size='lg'   style={{borderRadius:25}} title="Ajouter au panier" color="success"/>
+        <Button size='sm'   style={{borderRadius:25}} title="Ajouter au panier" color="success"/>
      </View>
    </View>
   )
